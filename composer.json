@@ -1,0 +1,25 @@
+{
+    "name": "hlf_513/flysystem-ufile",
+    "description": "flysystem-ufile ",
+    "license": "MIT",
+    "keywords": ["ucloud ufile laravel filesystem"],
+    "authors": [
+        {
+            "name": "longfei.he",
+            "email": "hlf513@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "league/flysystem": "^1.0",
+        "hlf_513/ucloud-ufile-sdk": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hlf\\FlysystemUfile\\": "src/"
+        }
+    }
+}
