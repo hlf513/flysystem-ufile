@@ -21,5 +21,12 @@
         "psr-4": {
             "Hlf\\FlysystemUfile\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hlf\\FlysystemUfile\\UfileServiceProvide"
+            ]
+        }
+    },
 }
